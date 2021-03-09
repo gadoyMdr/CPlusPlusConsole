@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Rooms">
+      <UniqueIdentifier>{7486bd33-0a82-4777-9880-921b33498e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rooms">
+      <UniqueIdentifier>{1312667d-afda-442d-bb7e-36abff87bb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{0388dccb-36d7-484f-839f-1ca4bcd709a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{afee85e4-8d64-4975-aa28-694b5858fa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{0b24a9b2-1681-4037-bd5d-a6123e032b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{5f15916a-d106-4825-9e6b-e304ab4686bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Singletons">
+      <UniqueIdentifier>{090dc164-a99e-4926-9849-5a5c497720d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Singletons">
+      <UniqueIdentifier>{f5642d0c-b98f-4649-b47e-dd84eccd6361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{080653ef-4d6f-405f-bac0-b1563d189f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{b2cabd7b-feeb-4078-8954-8d7d5e3ec123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2D shooter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayManager.cpp">
+      <Filter>Source Files\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayManager.h">
+      <Filter>Header Files\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
